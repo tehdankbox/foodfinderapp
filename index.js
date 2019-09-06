@@ -9,7 +9,10 @@ import DrawerNavigator from './navigation/DrawerNavigator';
 export default class Index extends Component {
     render(){
         return(
-            <DrawerNavigator/>
+            <View>
+                <Text>aaaa</Text>
+                <DrawerNavigator />
+            </View>
         );
     }
 }
