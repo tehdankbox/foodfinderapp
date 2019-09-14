@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.foodfinder">
+  package="com.teste2">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <application
       android:name=".MainApplication"
       android:label="@string/app_name"
@@ -10,6 +10,10 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
+      <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCp0R0H-KaD0TJvkjHgcEhLeVO4xfLbnWY"/>
+
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
@@ -21,6 +25,6 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-    </application>
 
+    </application>
 </manifest>

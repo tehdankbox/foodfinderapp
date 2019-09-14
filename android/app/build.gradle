@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.foodfinder"
+        applicationId "com.teste2"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

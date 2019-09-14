@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'FoodFinder' do
-  # Pods for FoodFinder
+target 'teste2' do
+  # Pods for teste2
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -28,7 +28,11 @@ target 'FoodFinder' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'FoodFinderTests' do
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+
+
+  target 'teste2Tests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -36,10 +40,10 @@ target 'FoodFinder' do
   use_native_modules!
 end
 
-target 'FoodFinder-tvOS' do
-  # Pods for FoodFinder-tvOS
+target 'teste2-tvOS' do
+  # Pods for teste2-tvOS
 
-  target 'FoodFinder-tvOSTests' do
+  target 'teste2-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

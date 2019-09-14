@@ -1,4 +1,11 @@
 {
-  "name": "FoodFinder",
-  "displayName": "FoodFinder"
+  "name": "teste2",
+  "displayName": "Food Finder",
+  "android": {
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyCp0R0H-KaD0TJvkjHgcEhLeVO4xfLbnWY"
+      }
+    }
+  }
 }
