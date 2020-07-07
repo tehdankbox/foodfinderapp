@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "firebase": "^6.6.0",
-    "npm": "^6.10.3",
+    "npm": "^6.14.6",
     "react": "16.8.6",
     "react-native": "0.60.3",
     "react-native-elements": "^1.1.0",
